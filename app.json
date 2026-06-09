@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Space Predictive Analytics",
+    "slug": "space-predictive-analytics",
+    "version": "1.0.0",
+    "scheme": "spacepredictive",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

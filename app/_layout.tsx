@@ -18,6 +18,10 @@ export default function Layout() {
             tabBarStyle: {
               backgroundColor: colors.surface,
               borderTopColor: colors.border
+            },
+            tabBarLabelStyle: {
+              fontSize: 11,
+              fontWeight: '700'
             }
           }}
         >
@@ -40,6 +44,13 @@ export default function Layout() {
             options={{
               title: 'Alertas',
               tabBarIcon: ({ color, size }) => <Ionicons name="warning-outline" color={color} size={size} />
+            }}
+          />
+          <Tabs.Screen
+            name="communication"
+            options={{
+              title: 'Comms',
+              tabBarIcon: ({ color, size }) => <Ionicons name="radio-outline" color={color} size={size} />
             }}
           />
           <Tabs.Screen

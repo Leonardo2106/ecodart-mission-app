@@ -27,7 +27,10 @@ export function TelemetryChart({ title, unit, values, maxValue, tone = 'cyan' }:
               <View style={styles.barTrack}>
                 <View style={[styles.bar, { height, backgroundColor: accent }]} />
               </View>
-              <Text style={styles.barValue}>{item.value}{unit}</Text>
+              <Text style={styles.barValue}>
+                {item.value}
+                {unit}
+              </Text>
               <Text style={styles.barLabel}>{item.label}</Text>
             </View>
           );

@@ -19,7 +19,7 @@ Aplicativo mobile em React Native + Expo para monitoramento preditivo de uma mis
 ## Desenvolvimento em Partes
 
 - [x] Parte 1: base do projeto, navegação, estado global, dashboard principal e dashboard de sensores
-- [ ] Parte 2: persistência com AsyncStorage, formulário de configuração e regras completas de alertas
+- [x] Parte 2: persistência com AsyncStorage, formulário de configuração e regras completas de alertas
 - [ ] Parte 3: terceiro dashboard, README final, prints, dados de entrega e polimento
 
 ## Capturas de tela
@@ -29,6 +29,12 @@ Aplicativo mobile em React Native + Expo para monitoramento preditivo de uma mis
 
 **Sensores:**  
 <img width="250px" src="statics/ecodart2.png" alt="EcoDart Mission Print 2">
+
+**Alertas:**  
+<img width="250px" src="statics/ecodart3.png" alt="EcoDart Mission Print 3">
+
+**Configurações:**  
+<img width="250px" src="statics/ecodart4.png" alt="EcoDart Mission Print 4">
 
 
 ## Como Executar

@@ -8,7 +8,7 @@ import { useMission } from '../context/MissionContext';
 import { colors } from '../theme/colors';
 
 export default function MissionDashboard() {
-  const { current, history, missionName, status } = useMission();
+  const { alerts, current, history, missionName, status } = useMission();
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -21,7 +21,8 @@ export default function MissionDashboard() {
         <View style={styles.summaryBand}>
           <Text style={styles.summaryTitle}>Telemetria simulada em tempo real</Text>
           <Text style={styles.summaryText}>
-            Última leitura {current.id} recebida às {current.timestamp}. O estado global atualiza os indicadores e mantém as telas sincronizadas.
+            Última leitura {current.id} recebida às {current.timestamp}. O estado global atualiza os indicadores e gerou {alerts.length} alerta(s)
+            com base nos limiares persistidos.
           </Text>
         </View>
 

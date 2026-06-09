@@ -42,8 +42,8 @@ export default function SensorsDashboard() {
         <View style={styles.interpretation}>
           <Text style={styles.interpretationTitle}>Interpretação operacional</Text>
           <Text style={styles.interpretationText}>
-            A leitura atual combina temperatura, radiação e vibração para apoiar a triagem de risco. Na próxima parte, estes limiares serão
-            configuráveis e persistidos no dispositivo.
+            A leitura atual combina temperatura, radiação e vibração para apoiar a triagem de risco. Os limiares de alerta já podem ser configurados
+            e persistidos no dispositivo.
           </Text>
         </View>
       </ScrollView>

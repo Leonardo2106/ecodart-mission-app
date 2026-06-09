@@ -35,6 +35,20 @@ export default function Layout() {
               tabBarIcon: ({ color, size }) => <Ionicons name="analytics-outline" color={color} size={size} />
             }}
           />
+          <Tabs.Screen
+            name="alerts"
+            options={{
+              title: 'Alertas',
+              tabBarIcon: ({ color, size }) => <Ionicons name="warning-outline" color={color} size={size} />
+            }}
+          />
+          <Tabs.Screen
+            name="settings"
+            options={{
+              title: 'Config',
+              tabBarIcon: ({ color, size }) => <Ionicons name="settings-outline" color={color} size={size} />
+            }}
+          />
         </Tabs>
       </MissionProvider>
     </SafeAreaProvider>
